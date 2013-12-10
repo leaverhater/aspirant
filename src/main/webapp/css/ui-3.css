@@ -1,0 +1,15 @@
+a.ui-expander-button
+{
+	display    : block;
+	margin-top : 15px;
+	padding    : 4px;
+	min-height : 10px;
+	text-align : center;
+	background : #E3DFD1;/* url('img/dots.gif') no-repeat center center;*/
+	text-decoration : none;
+}
+a.ui-expander-button:hover
+{
+	color : white;
+	background : #B49DA8;/* url('img/dots-white.gif') no-repeat center center;	*/
+}

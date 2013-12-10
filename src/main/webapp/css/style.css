@@ -1,0 +1,129 @@
+.b-newsbox
+{
+	width : 480px;
+}
+.b-newsbox .newsbox-nav
+{
+	width : 480px;
+	height : 45px;
+
+}
+.b-newsbox .newsbox-navitem
+{
+	height     : 45px;
+}
+.b-newsbox .newsbox-nav a
+{
+	display : block;
+	height  : 45px;
+}
+.newsbox-content
+{
+	height : 390px;
+	overflow-y : auto;
+
+}
+#newsbox-navitem-2
+{	
+	position   : absolute;
+	width	   : 150px;
+	right      : 0;
+	background : #413754;
+}
+#newsbox-navitem-2:hover,
+#newsbox-navitem-2.selected
+{	
+	background : #b39ca7;	
+}
+#newsbox-navitem-2 > a
+{
+	margin-left : 20px;
+	width	    : 130px;
+	background  : url("img/news-nav-text-2.png") no-repeat center center;		
+}
+#newsbox-navitem-2 > a:hover
+{
+
+}
+#newsbox-navitem-1
+{
+	position   : absolute;
+	width	   : 220px;
+	right      : 130px;	
+	background : url("img/bg-button.png") no-repeat right bottom;
+}
+#newsbox-navitem-1:hover,
+#newsbox-navitem-1.selected
+{
+	background : url("img/bg-button-selected.png") no-repeat right bottom;
+}
+#newsbox-navitem-1 > a
+{
+	width	 : 220px; 
+	background : url("img/news-nav-text-1.png") no-repeat center center;	
+}
+#newsbox-navitem-1 > a:hover
+{
+}
+#newsbox-navitem-0
+{
+	position   : absolute;
+	width      : 140px;
+	left       : 0;
+	background : url("img/bg-button.png") no-repeat right bottom;
+}
+#newsbox-navitem-0:hover,
+#newsbox-navitem-0.selected
+{
+	background : url("img/bg-button-selected.png") no-repeat right bottom;
+}
+#newsbox-navitem-0 > a
+{
+	width      : 135px;
+	background : url("img/news-nav-text-0.png") no-repeat center center;	
+}
+#newsbox-navitem-0 > a:hover
+{
+}
+#newsbox-item-2
+{
+	margin-top : 1px;
+}
+#newsbox-item-2 > a
+{
+	position : relative;	
+	/*
+	border-right : 50px solid #4B4765;*/
+	background : url("../img/shadow-lt-corner.png") no-repeat scroll 0 0 transparent;
+	background : url("../img/shadow-lt-corner.png") no-repeat scroll 0 0 transparent;
+
+}
+/*
+#newsbox-item-2 > a > span.toggler
+{
+	position : absolute;
+	display : block;
+	top : 0;
+	right : -50px;
+	width : 50px;
+	height : 50px;
+	opacity: 0.5;
+	background : url("../img/btn-arrow-down.png") no-repeat center center;
+}
+*/
+#newsbox-item-2 > a:hover
+{	
+	color : white;/*
+	border-right : 50px solid #2F2C41;*/
+	background : #2F2C41;
+}
+
+.linkbox-content .b-item-body span.ui-button-small
+{
+	display : none;
+}
+.linkbox-content .b-item-header .l-float-left div:last-child
+{
+	padding-top : 5px;
+	font-weight : bold;
+}

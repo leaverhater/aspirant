@@ -1,0 +1,29 @@
+.b-icon-small, .icon-small
+{
+	display  : block;
+	width    : 16px;
+	height   : 16px;
+}
+.b-icon-small
+{
+	position : absolute;
+	left     : 0;
+}
+.icon-small
+{
+	float        : left;
+	margin-right : 5px;
+}
+.w-icon-small
+{
+	padding-left : 25px;
+	min-height   : 20px;
+}
+.icon-16
+{
+	width  : 16px;
+	height : 16px;
+}
+.icon-16.twitter	{ background : url("../img/icons-socials.png") no-repeat -32px 0; }
+.icon-16.lj			{ background : url("../img/icons-socials.png") no-repeat 0 0; }
+.icon-16.vk			{ background : url("../img/icons-socials.png") no-repeat -16px 0; }

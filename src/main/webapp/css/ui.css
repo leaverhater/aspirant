@@ -1,0 +1,202 @@
+/******************** bmstu.ru ***********************/
+
+.ui-textfield
+{
+	border-top    : 1px solid #9d9d9d;	
+	border-left   : 1px solid #9d9d9d;
+	border-right  : 1px solid #e7e7e7;
+	border-bottom : 1px solid #e7e7e7;
+	background-color : white;
+}
+.ui-textfield-long
+{
+    border-top    : 1px solid #9d9d9d;
+    border-left   : 1px solid #9d9d9d;
+    border-right  : 1px solid #e7e7e7;
+    border-bottom : 1px solid #e7e7e7;
+    background-color : white;
+    width        : 800   ;
+}
+.ui-button-icon
+{
+	border           : 1px solid #bfd05d;
+	background-color : #fff;
+}
+.ui-button-icon.search-settings
+{
+	width	   : 30px;
+	height	   : 18px;
+	background : #fff url("img/icon-settings-show.png") no-repeat 2px 2px;
+}
+a#search-advanced
+{
+	display    : block;
+	width      : 19px;
+	height	   : 18px;
+	background : #fff url("img/icon-settings.png") no-repeat center center;
+}
+#search-submit
+{
+	border : 1px solid white;
+}
+a#search-advanced:hover
+{
+	background-color : #f0f0f0;
+}
+.ui-button-icon.search-settings.hide
+{
+	width	   : 30px;
+	height	   : 18px;
+	background : #fff url("img/icon-settings-hide.png") no-repeat 2px 2px;
+}
+.ui-button-icon.plus-minus
+{
+	width	   : 12px;
+	height	   : 12px;
+	background : #fff url("img/icon-minus-small.gif") no-repeat center center;
+}
+.ui-button-icon.plus-minus.hide
+{
+	width	   : 12px;
+	height	   : 12px;
+	background : #fff url("img/icon-plus-small.gif") no-repeat center center;
+}
+.ui-button-icon:hover,
+.ui-button-icon.hide:hover
+{
+	background-color : #f0f0f0;
+}
+.ui-button-nav-down,
+.ui-button-nav-up,
+.ui-button-nav-prev,
+.ui-button-nav-next
+{
+	width	   : 22px;
+	height	   : 22px;
+}
+
+.ui-button-nav-down.hide { background : #ccc url("img/icon-arrow-up.png") no-repeat 45% center; }
+.ui-button-nav-down { background : #ccc url("img/icon-arrow-down.png") no-repeat 45% center; }
+.ui-button-nav-up 	{ background : #ccc url("img/icon-arrow-up.png") no-repeat 45% center; }
+.ui-button-nav-prev { background : #ccc url("img/icon-arrow-left.png") no-repeat 45% center; }
+.ui-button-nav-next { background : #ccc url("img/icon-arrow-right.png") no-repeat center center; }
+.ui-button-nav-down:hover,
+.ui-button-nav-up:hover,
+.ui-button-nav-prev:hover,
+.ui-button-nav-next:hover
+{
+	background-color : #999;
+}
+.js-enable .ui-textfield-search
+{
+	background : #fff url("img/icon-search-small.png") no-repeat 4px center;
+}
+.ui-textfield-search:focus
+{
+	background : #fff;
+}
+.ui-button
+{
+	font-family	: "Arial";
+	padding		: 2px 5px 2px;
+	height		: 20px;
+	text-align	: center;
+}
+input.ui-button,
+a.ui-button
+{
+	border     : none;
+	color      : #fff;
+	background : #bfd05d;
+	font-weight : bold;
+}
+a.ui-button,
+a.ui-button:hover
+{
+	text-decoration : none;
+}
+input.ui-button.primary
+{
+	font-weight : bold;
+}
+.ui-button-nav-down:hover,
+.ui-button-nav-up:hover,
+.js-enable .ui-button-nav-prev,
+.js-enable .ui-button-nav-next,
+.js-enable .ui-button-icon,
+.ui-button
+{
+	cursor : pointer;
+	cursor : hand;
+}
+.ui-button-nav-down:hover,
+.ui-button-nav-up:hover,
+.ui-button-nav-prev:hover,
+.ui-button-nav-next:hover,
+.js-enable .ui-button:hover,
+.js-enable div.ui-button:hover,
+.js-enable li.ui-hoverbutton:hover,
+.js-enable div.ui-hoverbutton:hover,
+.js-enable span.ui-hoverbutton:hover,
+button:hover,
+.ui-button-tfinline:hover
+{
+	background-color : #a6b551;
+}
+
+.js-enable .ui-button:active,
+.js-enable div.ui-button:active,
+.js-enable li.ui-hoverbutton:active,
+.js-enable div.ui-hoverbutton:active,
+.js-enable span.ui-hoverbutton:active,
+button:active,
+.ui-button-tfinline:active
+{
+	border-top  : 1px solid #333;
+	border-left : 1px solid #333;
+}
+
+
+.ui-button-nav-down:active,
+.ui-button-nav-up:active,
+.ui-button-nav-prev:active,
+.ui-button-nav-next:active
+{
+	width	    : 21px;
+	height	    : 21px;
+	border-top  : 1px solid #333;
+	border-left : 1px solid #333;
+}
+
+
+.js-enable .ui-checkbox,
+.js-enable .ui-radio
+{
+	display : none;
+}
+.js-enable .ui-checkbox-label,
+.js-enable .ui-radio-label
+{
+	cursor       : pointer;
+	cursor       : hand;
+	display      : block;
+	float        : left;
+	clear        : both;
+	padding-left : 20px;
+}
+.js-enable .ui-checkbox-label
+{
+	background : url("img/checkbox.gif") no-repeat;
+}
+.js-enable .ui-checkbox-selected
+{
+	background : url("img/checkbox-selected.gif") no-repeat;
+}
+.js-enable .ui-radio-label
+{
+	background   : url("img/radio.png") no-repeat left center;	
+}
+.js-enable .ui-radio-selected
+{
+	background : url("img/radio-selected.png") no-repeat left center;
+}
